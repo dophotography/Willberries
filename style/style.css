@@ -62,6 +62,7 @@ body{
 
 .slide-1{
     background: #B4D1E0 url('../img/slides/slide-image-1.png') no-repeat top right 30%;
+    background-size: contain;
 }
 
 .label{
@@ -200,4 +201,59 @@ body{
     font-size: 25px;
     line-height: 30px;
     color:#262D33;
+}
+
+.more{
+    text-decoration: none;
+    color: #262D33;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px; 
+    line-height: 20px;
+    padding: 10px;
+}
+
+.goods-card{
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.goods-card .label{
+    position: absolute;
+    left: 18px;
+    top: 18px;
+}
+
+.goods-title{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #262D33;
+}
+
+.goods-description{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4B5157;
+}
+
+.goods-price{
+    margin-top: 30px;
+    font-family: 'Lato';
+    font-size: 18px;
+    line-height: 30px;
+    color: #262D33;
+    font-weight: 900;
 }
