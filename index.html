@@ -7,6 +7,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style/bootstrap-grid.min.css">
+        <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
         <link rel="stylesheet" href="style/style.css">
         <title>Willberries</title>
     </head>
@@ -51,36 +52,85 @@
             </div>
         </header>
     
-        <div class="slider">
-            <section class="slide slide-1">
-                <div class="container">
-                    <div class="row mb-4">
-                        <div class="col-4 offset-lg-1">
-                            <span class="label">Bestseller</span>
-                            <h2 class="slide-title">Sweater</br>Choker Neck </h2>
-                            <p class="slide-description">Women's pearl basic knit sweater<br>with a round neck. Available in several</br>colours. Free shipping to stores.</p>
-                            <button class="button">
-                                <span class="button-price">$319</span>
-                                <span class="button-text">Shop now</span>
-                            </button>
+        <div class="slider swiper-container">
+            <div class="swiper-wrapper">
+                <section class="slide slide-1 swiper-slide">
+                    <div class="container">
+                        <div class="row mb-4">
+                            <div class="col-4 offset-lg-1">
+                                <span class="label">Bestseller</span>
+                                <h2 class="slide-title">Sweater</br>Choker Neck </h2>
+                                <p class="slide-description">Women's pearl basic knit sweater<br>with a round neck. Available in several</br>colours. Free shipping to stores.</p>
+                                <button class="button">
+                                    <span class="button-price">$319</span>
+                                    <span class="button-text">Shop now</span>
+                                </button>
+                            </div>
+                            <!-- col-3 offset-lg-4 -->
                         </div>
-                        <!-- col-3 offset-lg-4 -->
+                        <!-- row -->
                     </div>
-                    <!-- row -->
-                </div>
-                <!-- container -->
-            </section>
+                    <!-- container -->
+                </section>
+
+                <!-- slide-1 -->
+
+                <section class="slide slide-2 swiper-slide">
+                    <div class="container">
+                        <div class="row mb-4">
+                            <div class="col-4 offset-lg-1">
+                                <span class="label">New</span>
+                                <h2 class="slide-title">T-shirt</h2>
+                                <p class="slide-description">Beautiful men's T-shirt<br>avalible in deffeent colors.</p>
+                                <button class="button">
+                                    <span class="button-price">$219</span>
+                                    <span class="button-text">Shop now</span>
+                                </button>
+                            </div>
+                            <!-- col-3 offset-lg-4 -->
+                        </div>
+                        <!-- row -->
+                    </div>
+                    <!-- container -->
+                </section>
+
+                <!-- slide-2 -->
+
+                <section class="slide slide-3 swiper-slide">
+                    <div class="container">
+                        <div class="row mb-4">
+                            <div class="col-4 offset-lg-1">
+                                <span class="label">Old collection</span>
+                                <h2 class="slide-title">Striped Long</br>Sleeve Shirt</h2>
+                                <p class="slide-description">Yellow/Lilac/Fuchsia/Orange</p>
+                                <button class="button">
+                                    <span class="button-price">$150</span>
+                                    <span class="button-text">Shop now</span>
+                                </button>
+                            </div>
+                            <!-- col-3 offset-lg-4 -->
+                        </div>
+                        <!-- row -->
+                    </div>
+                    <!-- container -->
+                </section>
+                
+                <!-- slide-3 -->
+
+            </div>
+            <!-- /.swiper-wrapper -->
+
             <!-- slide -->
             <div class="slider-nav">
                 <div class="container">
                     <div class="row justify-content-between">
                         <div class="col-1">
-                            <button class="slider-button">
+                            <button class="slider-button slider-button-prev">
                                 <img src="img/slide-arrow/arrow-left.svg" alt="icon: arrow-left">
                             </button>
                         </div>
                         <div class="col-1">
-                            <button class="slider-button">
+                            <button class="slider-button slider-button-next">
                                 <img src="img/slide-arrow/arrow-right.svg" alt="icon: arrow-right">
                             </button>
                         </div>
@@ -88,7 +138,8 @@
                 </div>
             </div>
         </div>
-        <!-- slider -->
+        <!-- slider-nav -->
+
         <div class="container pt-5 pb-4">
             <div class="row mb-4">
                 <div class="col-6">
@@ -265,5 +316,7 @@
             </div>
             <!-- /.container -->
         </footer>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
